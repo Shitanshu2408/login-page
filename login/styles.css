@@ -1,0 +1,123 @@
+/* Basic styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background */
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+}
+
+/* Logo styles */
+.navbar .logo img {
+    height: 40px; /* Adjust logo size */
+}
+
+/* Navigation links and buttons */
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1rem;
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+/* Login and Sign Up buttons */
+.navbar .nav-links a.login, .navbar .nav-links a.signup {
+    background-color: white;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hover effects for the buttons */
+.navbar .nav-links a:hover {
+    background-color: #f1f1f1;
+    color: #004085;
+    border-color: #004085;
+}
+
+/* Focus state for accessibility */
+.navbar .nav-links a:focus {
+    outline: 2px solid #004085;
+}
+
+/* Login container styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e9ecef; /* Light gray background */
+}
+
+.login-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.textbox input:focus {
+    border-color: #004085; /* Dark blue border on focus */
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #004085; /* Dark blue button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #003366; /* Darker blue on hover */
+}
+
+/* Surveillance banner styles */
+.surveillance-banner {
+    background-color: #004085; /* Dark blue background */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.surveillance-banner h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
